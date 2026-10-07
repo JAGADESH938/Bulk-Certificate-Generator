@@ -362,7 +362,3 @@ curl -X GET "http://localhost:8000/api/v1/jobs/<JOB_UUID>/certificates?page=1&pa
 curl -X GET "http://localhost:8000/api/v1/certificates/<CERTIFICATE_UUID>/download" \
   --output certificate.pdf
 ```
-
-
-rver.
-> 4. Add a read replica for PostgreSQL to handle high-frequency status polling queries without impacting write performance.
